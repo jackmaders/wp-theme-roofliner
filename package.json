@@ -1,17 +1,16 @@
 {
-  "name": "wp-theme-template",
+  "name": "wp-theme-roofliner",
   "version": "1.0.0",
   "type": "module",
-  "description": "Boilerplate template for a Wordpress Theme using Vite, Typescript, & Tailwind CSS.",
+  "description": "Wordpress Theme for Roofliner Website",
   "keywords": [
     "wordpress",
     "vite",
     "tailwindcss",
     "typescript",
-    "boilerplate",
-    "template"
+    "boilerplate"
   ],
-  "homepage": "https://github.com/jackmaders/wp-theme-template",
+  "homepage": "https://github.com/jackmaders/wp-theme-roofliner",
   "main": "/src/index.ts",
   "author": "Jack Maders",
   "license": "MIT",

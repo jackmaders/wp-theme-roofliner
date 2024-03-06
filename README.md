@@ -1,8 +1,8 @@
-# Wordpress Theme Template
+# Wordpress Theme Roofliner
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE) [![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)](https://wordpress.org/) [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/) [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-1a2a33?style=for-the-badge&logo=prettier&logoColor=white)
 
-Boilerplate template for a Wordpress Theme using Vite, Typescript, & Tailwind CSS.
+Wordpress Theme for Roofliner Website.
 
 ## Features
 
@@ -125,7 +125,7 @@ npm run format
 └── 📄search.php                # search results template
 └── 📄singular.php              # posts and pages template
 └── 📄style.css                 # wordpress theme metadata
-📄.env.example                  # example environment veriables
+📄.env.example                  # example environment variables
 📄.eslintrc                     # eslint config
 📄.gitignore                    # globs for git to ignore
 📄.postcssrc                    # postcss config for tailwind

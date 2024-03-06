@@ -5,7 +5,7 @@
 } ?>
 
 <nav
-  class="max-md:grid-rows-navbar-closed sticky top-0 bg-white transition-all duration-300 max-md:grid md:flex md:items-center md:justify-between"
+  class="sticky top-0 bg-white transition-all duration-300 max-md:grid max-md:grid-rows-navbar-closed md:flex md:items-center md:justify-between"
   data-script="navigation"
 >
   <div class="flex h-16 items-center justify-between">
@@ -18,7 +18,7 @@
     </a>
 
     <button
-      class="after:mask-[url('/src/images/heroicons/bars-3.svg')] after:mask-size-contain after:mask-position-center after:mask-no-repeat after:content-empty after:block after:size-11 after:bg-black md:hidden"
+      class="after:block after:size-11 after:bg-black after:content-empty after:mask-[url('/src/images/heroicons/bars-3.svg')] after:mask-no-repeat after:mask-size-contain after:mask-position-center md:hidden"
       data-ref="toggle-button"
     >
       <spam class="sr-only">toggle menu</spam>
