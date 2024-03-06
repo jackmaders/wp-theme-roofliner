@@ -1,0 +1,4 @@
+{
+  "overrides": [{ "files": "*.php", "options": { "parser": "html" } }],
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
