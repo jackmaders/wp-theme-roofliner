@@ -1,4 +1,5 @@
 import colors from "tailwindcss/colors";
+import defaultTheme from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -13,6 +14,10 @@ module.exports = {
         xl: "5rem",
         "2xl": "6rem",
       },
+    },
+    fontFamily: {
+      heading: ["Roboto Flex Variable", ...defaultTheme.fontFamily.sans],
+      body: ["Open Sans Variable", ...defaultTheme.fontFamily.sans],
     },
     colors: {
       blue: {
@@ -57,7 +62,7 @@ module.exports = {
         950: "#000000",
         DEFAULT: "#a1e8af",
       },
-      gray: colors.gray,
+      grey: colors.gray,
       yellow: colors.yellow,
     },
     extend: {
