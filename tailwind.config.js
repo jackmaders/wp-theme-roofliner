@@ -48,22 +48,10 @@ module.exports = {
         950: "#0b080b",
         DEFAULT: "#b494ae",
       },
-      green: {
-        50: "#d2f4d9",
-        100: "#c2f0cb",
-        200: "#a1e8af",
-        300: "#74dd89",
-        400: "#47d262",
-        500: "#2cb547",
-        600: "#218735",
-        700: "#165a24",
-        800: "#0b2d12",
-        900: "#000000",
-        950: "#000000",
-        DEFAULT: "#a1e8af",
-      },
       grey: colors.gray,
       yellow: colors.yellow,
+      white: "#ffffff",
+      black: "#000000",
     },
     extend: {
       gridTemplateRows: {
@@ -72,6 +60,9 @@ module.exports = {
       },
       content: {
         empty: '""',
+      },
+      backgroundColor: {
+        transparent: "transparent",
       },
     },
   },

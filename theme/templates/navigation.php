@@ -5,7 +5,7 @@
 } ?>
 
 <nav
-  class="bg-grey-50 sticky top-0 transition-all duration-300 max-md:grid max-md:grid-rows-navbar-closed md:flex md:items-center md:justify-between"
+  class="bleed-grey-50 sticky top-0 transition-all duration-300 bleed-bg max-md:grid max-md:grid-rows-navbar-closed md:flex md:items-center md:justify-between"
   data-script="navigation"
 >
   <div class="flex h-16 items-center justify-between">
@@ -18,7 +18,7 @@
     </a>
 
     <button
-      class="after:bg-grey-950 after:block after:size-11 after:content-empty after:mask-[url('/src/images/heroicons/bars-3.svg')] after:mask-no-repeat after:mask-size-contain after:mask-position-center md:hidden"
+      class="after:bg-black after:block after:size-11 after:content-empty after:mask-[url('/src/images/heroicons/bars-3.svg')] after:mask-no-repeat after:mask-size-contain after:mask-position-center md:hidden"
       data-ref="toggle-button"
     >
       <spam class="sr-only">toggle menu</spam>
