@@ -1,7 +1,14 @@
-@import url("./tailwind/base.css");
-@import url("./tailwind/components.css");
-@import url("./tailwind/utilities.css");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("./base/forms.css");
+@import url("./base/typography.css");
+@import url("./base/buttons.css");
+
+@import url("./wordpress/blocks/button.css");
+@import url("./wordpress/blocks/buttons.css");
+
+@import url("./wordpress/plugins/contact-form-7.css");
 
 @import url("./templates/navigation.css");
-
-@import url("./plugins/contact-form-7.css");

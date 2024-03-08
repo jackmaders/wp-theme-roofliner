@@ -1,0 +1,8 @@
+.button {
+  @apply rounded border-2 border-blue-600 bg-blue-600 px-10 py-2 text-center text-lg font-bold text-white;
+}
+
+.button--ghost {
+  @apply button;
+  @apply bg-transparent text-blue-600;
+}

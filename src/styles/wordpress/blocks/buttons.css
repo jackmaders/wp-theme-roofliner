@@ -1,0 +1,7 @@
+.wp-block-buttons.is-layout-flex > .wp-block-button {
+  @apply flex-1 basis-full md:basis-0;
+}
+
+.wp-block-buttons.is-layout-flex > .wp-block-button > .wp-element-button {
+  @apply w-full;
+}

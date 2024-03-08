@@ -64,6 +64,9 @@ module.exports = {
       backgroundColor: {
         transparent: "transparent",
       },
+      spacing: {
+        192: "48rem",
+      },
     },
   },
   plugins: [

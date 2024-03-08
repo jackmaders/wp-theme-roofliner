@@ -1,6 +1,6 @@
 <header class="flex flex-col gap-8 py-16">
   <h1 class="text-center">Unleash the potential of your home.</h1>
-  <p class="text-grey-700 text-center text-lg tracking-tight">
+  <p class="text-center text-lg tracking-tight text-grey-700">
     A tiled roof can transform your conservatory, bringing you year-round
     comfort and saving you money.
   </p>

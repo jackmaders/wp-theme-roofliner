@@ -1,0 +1,7 @@
+.wp-block-button .wp-block-button__link {
+  @apply button;
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link {
+  @apply button--ghost !text-blue-600;
+}
